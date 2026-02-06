@@ -1,31 +1,31 @@
-# SAGE SIAS (Sample-Importance-Aware Selection)
+# SAGE Tool Use SIAS (Sample-Importance-Aware Selection)
 
-**Independent package for sample-importance-aware selection, continual learning, and coreset algorithms**
+**Tool selection algorithm using sample-importance-aware selection for agent training and tool curation**
 
-[![PyPI version](https://badge.fury.io/py/isage-sias.svg)](https://badge.fury.io/py/isage-sias)
+[![PyPI version](https://badge.fury.io/py/isage-tooluse-sias.svg)](https://badge.fury.io/py/isage-tooluse-sias)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🎯 Overview
 
-`sage-sias` provides Sample-Importance-Aware Selection algorithms for:
+`sage-tooluse-sias` provides Sample-Importance-Aware Selection algorithms specifically designed for:
 
-- **Continual Learning**: Efficient sample selection for continual/lifelong learning scenarios
-- **Coreset Selection**: Select representative subsets from large datasets
-- **Active Learning**: Importance-based data selection strategies
-- **Tool/Trajectory Curation**: Select important samples for agent training
+- **Tool Selection**: Select important tools for agent use
+- **Agent Training**: Select important trajectories for fine-tuning
+- **Continual Learning**: Efficient sample selection for continual/lifelong learning
+- **Tool/Trajectory Curation**: Curate representative samples for agent development
 
 ## 📦 Installation
 
 ```bash
 # Basic installation
-pip install isage-sias
+pip install isage-tooluse-sias
 
 # With PyTorch support
-pip install isage-sias[torch]
+pip install isage-tooluse-sias[torch]
 
 # Development installation
-pip install isage-sias[dev]
+pip install isage-tooluse-sias[dev]
 ```
 
 ## 🚀 Quick Start
@@ -126,9 +126,9 @@ trainer.train(important_trajectories)
 
 ## 📖 Documentation
 
-- **Repository**: https://github.com/intellistream/sage-sias
+- **Repository**: https://github.com/intellistream/sage-tooluse-sias
 - **SAGE Documentation**: https://intellistream.github.io/SAGE-Pub/
-- **Issues**: https://github.com/intellistream/sage-sias/issues
+- **Issues**: https://github.com/intellistream/sage-tooluse-sias/issues
 
 ## 🤝 Contributing
 

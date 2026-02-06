@@ -3,9 +3,9 @@ requires = ["setuptools>=61.0", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "isage-sias"
+name = "isage-tooluse-sias"
 version = "0.1.0"
-description = "Sample-Importance-Aware Selection (SIAS) - Continual learning and coreset selection algorithms"
+description = "SAGE Tool Use SIAS - Sample-Importance-Aware Selection for tool selection and agent training"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
@@ -14,12 +14,14 @@ authors = [
 ]
 keywords = [
     "sias",
+    "tool-selection",
+    "tool-use",
     "sample-selection",
     "importance-aware",
     "continual-learning",
     "coreset",
     "active-learning",
-    "data-selection",
+    "agent-training",
 ]
 classifiers = [
     "Development Status :: 4 - Beta",
