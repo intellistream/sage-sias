@@ -2,13 +2,13 @@
 
 **Tool selection algorithm using sample-importance-aware selection for agent training and tool curation**
 
-[![PyPI version](https://badge.fury.io/py/isage-tooluse-sias.svg)](https://badge.fury.io/py/isage-tooluse-sias)
+[![PyPI version](https://badge.fury.io/py/isage-agentic-tooluse-sias.svg)](https://badge.fury.io/py/isage-agentic-tooluse-sias)
 [![Python 3.10+](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## 🎯 Overview
 
-`sage-tooluse-sias` provides Sample-Importance-Aware Selection algorithms specifically designed for:
+`sage-agentic-tooluse-sias` provides Sample-Importance-Aware Selection algorithms specifically designed for:
 
 - **Tool Selection**: Select important tools for agent use
 - **Agent Training**: Select important trajectories for fine-tuning
@@ -19,13 +19,13 @@
 
 ```bash
 # Basic installation
-pip install isage-tooluse-sias
+pip install isage-agentic-tooluse-sias
 
 # With PyTorch support
-pip install isage-tooluse-sias[torch]
+pip install isage-agentic-tooluse-sias[torch]
 
 # Development installation
-pip install isage-tooluse-sias[dev]
+pip install isage-agentic-tooluse-sias[dev]
 ```
 
 ## 🚀 Quick Start
